@@ -1,2 +1,2 @@
 # visualize-data
-visualize data using simple python code
+visualize data using python code or other programs
