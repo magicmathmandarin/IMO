@@ -1,0 +1,16 @@
+from bokeh.plotting import figure, output_file,show
+v=figure(plot_width=500, plot_height=500 )
+v.title="Magic Target dots"
+v.title_text_color="Red"
+v.title_text_font="times"
+v.title_text_font_style="italic"
+v.title_text_font_size="30pt"
+v.xaxis.minor_tick_line_color=None
+v.xaxis.axis_label="Number of Study Days"
+v.yaxis.axis_label="Amount of Homework"
+v.circle([4,5,6,7,8,9,],[4,5,6,7,8,9], size=[eyeball*2 for eyeball in [5,10,20,30,40,50]], color="red" )
+v.circle([4,5,6,7,8,9,],[4,5,6,7,8,9], size=[eyeball for eyeball in [5,10,20,30,40,50]], color="white" )
+v.circle([4,5,6,7,8,9,],[4,5,6,7,8,9], size=[eyeball for eyeball in [2,5,10,15,20,25]], color="red" )
+#v.triangle([4,5,6,7,8,9],[4,5,6,7,8,9], size=50, color="red", alpha=0.1 ) #alpha for transparancy,alpha=1 means solid
+output_file("Victoria's Boheh2.html")
+show(v)
