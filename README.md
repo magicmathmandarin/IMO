@@ -1,4 +1,3 @@
-# visualize-and-analyze-data
 visualize and analyze data using python code
-
-## Bitcoin price time series plots and basic data analysis in Jupyter notebook
+# Bitcoin price time series plots and basic data analysis
+##  in Jupyter notebook
