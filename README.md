@@ -1,2 +1,4 @@
 # visualize-and-analyze-data
-visualize data using python code
+visualize and analyze data using python code
+
+## Visualize bitcoin price time series data and analyze in Jupyter notebook
